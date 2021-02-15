@@ -39,25 +39,18 @@ It is a basic calculator that will allow users to perform operations in mathemat
 
 # 4W&#39;s and 1&#39;H
 
-## Who:
+ **4W1H**
 
-**TBD**
+**What** : Basic Calculator.
 
-## What:
+**Where** : Used in Provisional Stores and Students.
 
-**TBD**
+**When** : For Complex Calculations.
 
-## When:
+**Why** : For Easy and faster Calculations.
 
-**TBD**
+**How** : Operates by using User Inputs.
 
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
 
 # Detail requirements
 ## High Level Requirements:
