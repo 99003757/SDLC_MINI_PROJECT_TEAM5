@@ -9,7 +9,7 @@ void basic_operations()
     while(1)
     {
         printf("%s : ", KEY);
-        printf("+\n-\n *\n /\n ^-square \n 6:exit\n");
+        printf("Press + for Add\nPress - for Sub\n Press * for Mul\n /\n Press ^ for square \n 6:exit\n");
         //getting the key from the keyboard
         Calc_oprn=getchar();
  
@@ -28,7 +28,7 @@ void basic_operations()
                           break;
             case '^': square();
                       break;
-            case 6: exit(0);
+            case '6': exit(1);
                     break;
         }
     }
