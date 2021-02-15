@@ -1,6 +1,7 @@
 #include "trigono.h"
 #include "Matric_operation.h"
 #include "basic.h"
+#include "conversion.h"
 unsigned int calculator_operation = 0;
 
 int main(int argc, char *argv[])
@@ -21,7 +22,7 @@ void calculator_menu(void)
         switch(calculator_operation)
     {
         case 1:
-           basic_operations();
+           basic_operations()();
             break;
         case 2:
             Matrix_operations();

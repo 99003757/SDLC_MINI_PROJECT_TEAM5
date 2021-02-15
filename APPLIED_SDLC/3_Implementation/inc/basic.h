@@ -2,7 +2,7 @@
 #define __BASIC_H__
 
 #include <stdio.h>
-
+void basic_operations();
 
 void addition();
 void subtraction();

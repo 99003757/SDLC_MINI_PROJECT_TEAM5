@@ -1,14 +1,15 @@
-#include"Basic.h"
+#include"basic.h"
 
 #define KEY "Enter the calculator Operation you want to do:"
 
 //start main function
-int basic_operations()
+void basic_operations()
 {
     char Calc_oprn;
     while(1)
     {
         printf("%s : ", KEY);
+        printf("+\n-\n *\n /\n ^-square \n 6:exit\n");
         //getting the key from the keyboard
         Calc_oprn=getchar();
  
@@ -27,9 +28,11 @@ int basic_operations()
                           break;
             case '^': square();
                       break;
+            case 6: exit(0)
+                    break;
         }
     }
-    return 0;
+    
 }
 //addition function
 void addition(){
