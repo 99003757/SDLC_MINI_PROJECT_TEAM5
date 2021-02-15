@@ -12,7 +12,7 @@ It is a basic calculator that will allow users to perform operations in mathemat
 
 Cost v/s features
 
-![costfeatures](https://user-images.githubusercontent.com/78853987/107947395-52474480-6fb8-11eb-976e-f6b4f41585a1.PNG)
+![costvsfeatures](https://user-images.githubusercontent.com/78853987/107947612-a2bea200-6fb8-11eb-9838-2495a79aabf7.PNG)
 
 
 ## SWOT ANALYSIS
