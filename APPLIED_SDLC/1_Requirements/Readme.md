@@ -24,6 +24,10 @@ It is a basic calculator that will allow users to perform operations in mathemat
 • Trigonometric operations
 
 • Matrix Operations
+ **Weakness**
+
+•	Limited Operations
+•	Memory Wastage
 
 
 # 4W&#39;s and 1&#39;H
