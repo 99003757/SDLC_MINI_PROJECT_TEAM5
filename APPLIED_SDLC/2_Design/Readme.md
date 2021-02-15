@@ -10,11 +10,6 @@
 
 ![HLR_sequence_dia](https://user-images.githubusercontent.com/78851073/107770686-d0f57500-6d5f-11eb-889c-06a91c5c6ba2.jpg)
 
-**OBJECT DIAGRAM FOR HIGH LEVEL REQUIREMENTS**
-
-
-![HLR_Object](https://user-images.githubusercontent.com/78851798/107767529-0c417500-6d5b-11eb-9177-085affd43000.jpg)
-
 # Low Level Design 
 
 **ACTIVITY DIAGRAM for TRIGNOMETRIC**
@@ -34,11 +29,5 @@
 
 ![LLR_Sequence_dia](https://user-images.githubusercontent.com/78851073/107769144-8d017080-6d5d-11eb-9455-5f162853e20f.jpg)
 
-
-**PACKAGE DIAGRAM FOR MATRIX OPERATIONS**
-
-
-![Matrices_Package](https://user-images.githubusercontent.com/78851798/107767563-1a8f9100-6d5b-11eb-9395-bb8aefc68b94.jpg)
-
-
-
+**USE CASE DIAGRAM FOR BASIC**
+![llr-basic-use case](https://user-images.githubusercontent.com/78848721/107907981-04601b80-6f7b-11eb-9ce9-d1d035246fd6.png)
