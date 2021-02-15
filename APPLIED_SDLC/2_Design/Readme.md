@@ -25,3 +25,6 @@
 
 ![LLR_Sequence_dia](https://user-images.githubusercontent.com/78851073/107769144-8d017080-6d5d-11eb-9455-5f162853e20f.jpg)
 
+**CLASS DIAGRAM FOR CONVERSION**
+
+![LLR_class_diagram](https://user-images.githubusercontent.com/78851073/107771031-30538500-6d60-11eb-83a7-543e81abef0f.png)
