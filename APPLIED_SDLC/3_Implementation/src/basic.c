@@ -28,7 +28,7 @@ void basic_operations()
                           break;
             case '^': square();
                       break;
-            case 6: exit(0)
+            case 6: exit(0);
                     break;
         }
     }

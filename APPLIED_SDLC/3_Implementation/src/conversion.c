@@ -103,8 +103,7 @@ void conversion_operation()
     float f,c,m,ft,dc,ac;
 
     while(1)
-    {
-        
+    {        
         printf("Select conversion Type: \n");
         printf("1. BASE Conversion\n");
         printf("2. Units Conversion\n\n");
