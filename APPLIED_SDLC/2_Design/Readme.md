@@ -29,7 +29,11 @@
 
 ![LLR_Sequence_dia](https://user-images.githubusercontent.com/78851073/107769144-8d017080-6d5d-11eb-9455-5f162853e20f.jpg)
 
+
+
 **USE CASE DIAGRAM FOR BASIC**
+
+
 ![llr-basic-use case](https://user-images.githubusercontent.com/78848721/107907981-04601b80-6f7b-11eb-9ce9-d1d035246fd6.png)
 
 
