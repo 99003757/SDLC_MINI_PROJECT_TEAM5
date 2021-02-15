@@ -6,7 +6,9 @@
 
 ![HLR_Activity](https://user-images.githubusercontent.com/78853987/107772306-16b33d00-6d62-11eb-9fab-5c751ac7cbaa.png)
 
+**SEQUENCE DIAGRAM FOR HIGH LEVEL REQUIREMENTS**
 
+![HLR_sequence_dia](https://user-images.githubusercontent.com/78851073/107770686-d0f57500-6d5f-11eb-889c-06a91c5c6ba2.jpg)
 
 ## Low Level Design 
 
@@ -18,3 +20,8 @@
 **CLASS DIAGRAM FOR TRIGNOMETRIC**
 
 ![S_LLR_Trig](https://user-images.githubusercontent.com/78853987/107771101-48c39f80-6d60-11eb-931e-83c0dc426702.png)
+
+**SEQUENCE DIAGRAM FOR CONVERSION**
+
+![LLR_Sequence_dia](https://user-images.githubusercontent.com/78851073/107769144-8d017080-6d5d-11eb-9455-5f162853e20f.jpg)
+
