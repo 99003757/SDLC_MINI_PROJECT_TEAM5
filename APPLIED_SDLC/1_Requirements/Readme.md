@@ -9,10 +9,22 @@ It is a basic calculator that will allow users to perform operations in mathemat
 - Basic Trigonometric Operations are also available.
 - Basic Matrix Operations are also available.
 - It has double precision.
-## Defining Our System
-    -- TBD
+
 ## SWOT ANALYSIS
-![SWOT](Lint to SWOT)
+# **SWOT- Strengths, and Weakness, Opportunities Threats**
+
+ **Strengths** 
+
+• User Friendly
+
+• All basic operations
+
+• Double Precision
+
+• Trigonometric operations
+
+• Matrix Operations
+
 
 # 4W&#39;s and 1&#39;H
 
