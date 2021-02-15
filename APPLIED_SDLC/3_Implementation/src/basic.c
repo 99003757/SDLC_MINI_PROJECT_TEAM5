@@ -3,7 +3,7 @@
 #define KEY "Enter the calculator Operation you want to do:"
 
 //start main function
-int main()
+int basic_operations()
 {
     char Calc_oprn;
     while(1)
