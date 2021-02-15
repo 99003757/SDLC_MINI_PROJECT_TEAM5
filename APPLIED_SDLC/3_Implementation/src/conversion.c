@@ -96,7 +96,7 @@ float current_AC_DC(float ac)
     return dc;
 }
 
-int main() 
+void conversion_operation() 
 {
     int num1,val=0,ch1=0; 
     int num, choice=0, base,choice2=0;
