@@ -22,7 +22,7 @@ void calculator_menu(void)
         switch(calculator_operation)
     {
         case 1:
-           basic_operations()();
+           basic_operations();
             break;
         case 2:
             Matrix_operation();
