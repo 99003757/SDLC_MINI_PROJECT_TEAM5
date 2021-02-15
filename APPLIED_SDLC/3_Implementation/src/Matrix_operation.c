@@ -6,13 +6,15 @@ void Matrix_operation(void){
     int rowA, colA;
     int rowB, colB;
     int operation;
-    char again = 'Y';
+
+    //char again = 'Y';
     //int again=1;
-    while (again == 'Y'){
+    while (1){
         printf("Operation Menu\n");
         printf("\t1. to Add\n");
         printf("\t2. to Subtract\n");
         printf("\t3. to Multiply two matrices\n");
+        printf("\t4.for exit\n");
         printf("Enter yout choice: ");
         scanf(" %d", &operation);
         switch (operation){
@@ -80,6 +82,11 @@ void Matrix_operation(void){
             matrixMultiply(matrixA, matrixB, rowA, colA, colB);
             }
             break;
+        case 4:
+        {
+            exit(0);
+            break;
+        }
         default:
             printf("\nIncorrect option! Please choose a number 1-4.");
             break;
