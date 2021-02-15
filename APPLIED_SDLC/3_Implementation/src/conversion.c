@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<stdlib.h>
 int check_binary(int copy) {
     int temp = 0;
     while (copy != 0) {
