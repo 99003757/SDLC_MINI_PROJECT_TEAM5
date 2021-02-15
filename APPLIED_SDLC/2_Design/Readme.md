@@ -32,5 +32,8 @@
 **USE CASE DIAGRAM FOR BASIC**
 ![llr-basic-use case](https://user-images.githubusercontent.com/78848721/107907981-04601b80-6f7b-11eb-9ce9-d1d035246fd6.png)
 
+
+
 **OBJECT DIAGRAM FOR BASIC**
+
 ![llr-basic-object](https://user-images.githubusercontent.com/78848721/107908120-48ebb700-6f7b-11eb-8fa3-a0156d5b859e.png)
