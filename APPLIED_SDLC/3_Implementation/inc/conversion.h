@@ -1,6 +1,7 @@
 #ifndef __CONVERSION_H__
 #define __CONVERSION_H__
 #include <stdio.h>
+#include<stdlib.h>
 
 int check_binary(int copy);
 int check_octal(long n);
