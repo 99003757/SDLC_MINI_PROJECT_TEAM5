@@ -10,6 +10,11 @@ It is a basic calculator that will allow users to perform operations in mathemat
 - Basic Matrix Operations are also available.
 - It has double precision.
 
+Cost v/s features
+
+![costfeatures](https://user-images.githubusercontent.com/78853987/107947395-52474480-6fb8-11eb-976e-f6b4f41585a1.PNG)
+
+
 ## SWOT ANALYSIS
 # **SWOT- Strengths, and Weakness, Opportunities Threats**
 
