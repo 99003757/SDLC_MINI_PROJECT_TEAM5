@@ -1,13 +1,14 @@
 # Requirements
 ## Introduction
 It is a basic calculator that will allow users to perform operations in mathematics( Arithimetic, Trigonometric, Matrices, Conversion etc) b However, the input has to be provided by user. The input values can be from any integer to even a number with decimals. Moreover, this calculator is smart enough to operate all the basic operations.
+# **Features**
 
-## Research
-![Description](Link to Pic)
--- Content 
-## Cost and Features
-![Description](Link to Pic)
--- Content 
+- It can do all basic operations (Addition, Subtraction, Multiplication, Division).
+- Logarithmic operations, Exponential operations are also available.
+- Power functions, Factorial and Conversions which are helpful for students are added.
+- Basic Trigonometric Operations are also available.
+- Basic Matrix Operations are also available.
+- It has double precision.
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
