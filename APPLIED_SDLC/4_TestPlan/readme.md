@@ -18,3 +18,8 @@ FOR TRIGONOMETRIC OPEARTION
 
 **For Conversion Operation**
 ![test_conversion](https://user-images.githubusercontent.com/78851073/107909107-85b8ad80-6f7d-11eb-9510-4614e0bb6d80.png)
+
+**For Basic Operation**
+
+[test plan.docx](https://github.com/99003761/Team5_SDLC_Calc/files/5979770/test.plan.docx)
+
