@@ -1,6 +1,6 @@
-#include "trigno.h"
-#include "Matrix_operation.h"
-
+#include "trigono.h"
+#include "Matric_operation.h"
+#include "basic.h"
 unsigned int calculator_operation = 0;
 
 int main(int argc, char *argv[])
@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1.\basic operation\n2.matrix operation \n3. trigonometric operations\n4.Conversion \n3. ");
+    printf("\n1.\basic operation\n2.matrix operation \n3. trigonometric operations\n4.Conversion \n5.exit\n ");
     printf("\n\tEnter your choice\n");
     scanf("%d", &calculator_operation);
         switch(calculator_operation)
     {
         case 1:
-            Basic_operations();
+           basic_operations();
             break;
         case 2:
             Matrix_operations();
@@ -32,9 +32,9 @@ void calculator_menu(void)
         case 4:
               Conversion();
             break;
-        default:
-            printf("\nIncorrect option! Please choose a number 1-4.");
-            break;
+        case 5: exit(0);
+                  break;
+        
     }
 }
 
