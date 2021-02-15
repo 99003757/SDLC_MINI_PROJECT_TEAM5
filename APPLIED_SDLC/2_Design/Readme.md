@@ -42,6 +42,7 @@
 
 ![llr-basic-object](https://user-images.githubusercontent.com/78848721/107908120-48ebb700-6f7b-11eb-8fa3-a0156d5b859e.png)
 
-**ACTIVITY DIAGRAM FOR MATRIX OPERATION**
+**CLASS DIAGRAM FOR BASIC**
 
-![Matrices_activity](https://user-images.githubusercontent.com/78851798/107767612-38f58c80-6d5b-11eb-9ccd-304e7b67c9df.jpg)
+![hlr-class diagram](https://user-images.githubusercontent.com/78848721/107908285-b13a9880-6f7b-11eb-85a8-0209061e8e7f.png)
+
