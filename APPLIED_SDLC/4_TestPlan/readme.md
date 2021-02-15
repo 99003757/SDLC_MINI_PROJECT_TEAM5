@@ -1,6 +1,6 @@
 # TEST PLAN:
 
-**Test Plan Matrix Operation**
+**Test Plan For Matrix Operation**
 
 | Test ID | Requirement | Expected Output |
 | --- | --- | --- |
