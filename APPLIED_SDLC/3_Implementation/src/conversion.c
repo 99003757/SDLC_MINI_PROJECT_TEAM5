@@ -108,6 +108,7 @@ void conversion_operation()
         printf("Select conversion Type: \n");
         printf("1. BASE Conversion\n");
         printf("2. Units Conversion\n\n");
+        printf("3.exit\n");
         scanf("%d",&ch1);
                   
         switch(ch1)
@@ -115,10 +116,7 @@ void conversion_operation()
             case 1:
                     printf("1. Decimal to Binary. \n");
                     printf("2. Decimal to Octal. \n");
-                    printf("3. Decimal to Hexadecimal. \n");
-                   // printf("4. Binary to Decimal. \n");
-                   // printf("5. Hexadecimal to Decimal. \n");
-                   // printf("6. Octal to Decimal. \n"); 
+                    printf("3. Decimal to Hexadecimal. \n");                   
                     printf("7. Exit. \n");
                     printf("\nEnter your choice: ");
                     scanf("%d", &choice);
@@ -133,7 +131,11 @@ void conversion_operation()
                     printf("7. Exit. \nselect Choice : ");
                     scanf("%d", &choice2);
                     goto sw;
-                   break;                              
+                   break;   
+            case 3:
+                printf("Exting...");
+                exit(0);
+                break;                           
             default:
                 printf("Invalid choice.\n");
                 continue;
@@ -165,23 +167,13 @@ void conversion_operation()
                 printf("Result = ");
                 convert_to_x_base(num, base);
                 printf("\n");
-                break;
-                
-                break;
+                break;                           
             case 4:
-                
-                break;
-            case 5:
-                
-                break;
-            case 6:
-                
-                break;    
-            case 7:
                 printf("Exiting ...");
-                exit(1);
+                exit(0);
+                break;
             default:
-                //printf("Invalid choice.\n");
+                printf("Invalid choice.\n");
                 continue;
         }
     sw:    switch(choice2)
@@ -225,7 +217,9 @@ void conversion_operation()
                 break;    
             case 7:
                 printf("Exiting ...");
-                exit(1);
+                exit(0);
+                break;
+            
             default:
                 printf("Invalid choice.\n");
                 continue;
