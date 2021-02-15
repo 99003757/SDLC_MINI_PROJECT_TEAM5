@@ -9,6 +9,8 @@
 **CLASS DIAGRAM FOR HLR**
 
 ![hlr-class diagram](https://user-images.githubusercontent.com/78848721/107908285-b13a9880-6f7b-11eb-85a8-0209061e8e7f.png)
+
+
 **ACTIVITY DIAGRAM for HLR**
 
 ![HLR_Activity](https://user-images.githubusercontent.com/78853987/107772306-16b33d00-6d62-11eb-9fab-5c751ac7cbaa.png)
