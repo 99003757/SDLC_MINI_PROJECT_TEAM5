@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+void basic_operations();
 
 void addition();
 void subtraction();
