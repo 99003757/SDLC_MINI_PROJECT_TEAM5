@@ -1,4 +1,5 @@
-#include"Matrix_operation.h"
+#include "Matric_operation.h"
+
 void Matrix_operation(void){
     int i, j, k; 
     int matrixA[10][10]; 

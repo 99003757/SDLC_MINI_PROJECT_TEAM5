@@ -25,13 +25,13 @@ void calculator_menu(void)
            basic_operations()();
             break;
         case 2:
-            Matrix_operations();
+            Matrix_operation();
             break;
         case 3:
-            Trigonometric_operation();
+            trigonometeric_opeartions();
             break;
         case 4:
-              Conversion();
+              conversion_operation();
             break;
         case 5: exit(0);
                   break;
