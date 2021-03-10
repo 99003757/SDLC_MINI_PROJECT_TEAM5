@@ -125,8 +125,8 @@ void conversion_operation()
                     printf("2.Convert Farenheit to Celcius  \n");
                     printf("3.Convert Meter to Feet  \n");
                     printf("4.Convert Feet to Meter  \n");
-                    printf("5.Convert AC to DC  \n");
-                    printf("6.Convert DC to AC   \n");
+                    printf("5.Convert DC to AC  \n");
+                    printf("6.Convert AC to DC   \n");
                     printf("7. Exit. \nselect Choice : ");
                     scanf("%d", &choice2);
                     goto sw;
