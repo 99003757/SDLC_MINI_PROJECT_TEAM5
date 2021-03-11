@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<stdlib.h>
 int check_binary(int copy) {
     int temp = 0;
     while (copy != 0) {
@@ -103,8 +103,7 @@ void conversion_operation()
     float f,c,m,ft,dc,ac;
 
     while(1)
-    {
-        
+    {        
         printf("Select conversion Type: \n");
         printf("1. BASE Conversion\n");
         printf("2. Units Conversion\n\n");
@@ -126,8 +125,8 @@ void conversion_operation()
                     printf("2.Convert Farenheit to Celcius  \n");
                     printf("3.Convert Meter to Feet  \n");
                     printf("4.Convert Feet to Meter  \n");
-                    printf("5.Convert AC to DC  \n");
-                    printf("6.Convert DC to AC   \n");
+                    printf("5.Convert DC to AC  \n");
+                    printf("6.Convert AC to DC   \n");
                     printf("7. Exit. \nselect Choice : ");
                     scanf("%d", &choice2);
                     goto sw;

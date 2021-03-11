@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1.\basic operation\n2.matrix operation \n3. trigonometric operations\n4.Conversion \n5.exit\n ");
+    printf("\n1. Basic operation\n2. Matrix operation \n3. Trigonometric operations\n4. Conversion \n5. Exit\n");
     printf("\n\tEnter your choice\n");
     scanf("%d", &calculator_operation);
         switch(calculator_operation)

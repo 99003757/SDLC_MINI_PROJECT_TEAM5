@@ -1,6 +1,7 @@
 #ifndef __CONVERSION_H__
 #define __CONVERSION_H__
 #include <stdio.h>
+#include<stdlib.h>
 
 int check_binary(int copy);
 int check_octal(long n);
@@ -12,4 +13,4 @@ float Len_F_M(float f);
 float current_DC_AC(float dc);
 float current_AC_DC(float ac);
 
-#ednif
+#endif
