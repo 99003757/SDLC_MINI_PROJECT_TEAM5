@@ -1,4 +1,4 @@
-#include "trigono.h"
+#include <trigono.h>
 
 #define PI 3.1423
 

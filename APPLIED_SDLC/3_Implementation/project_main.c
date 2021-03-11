@@ -1,7 +1,7 @@
-#include "trigono.h"
-#include "Matric_operation.h"
-#include "basic.h"
-#include "conversion.h"
+#include <trigono.h>
+#include <Matric_operation.h>
+#include <basic.h>
+#include <conversion.h>
 
 unsigned int calculator_operation = 0;
 
