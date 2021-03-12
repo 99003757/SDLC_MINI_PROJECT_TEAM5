@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
+/*
 int check_binary(int copy) {
     int temp = 0;
     while (copy != 0) {
@@ -9,13 +10,13 @@ int check_binary(int copy) {
             copy = copy / 10;
             if (copy == 0)
             {
-                printf("valid binary number.\n");
+               // printf("valid binary number.\n");
                 return 1;
                 break;
             }
         }
         else {
-            printf("Invalid Bin\n");
+            //printf("Invalid Bin\n");
             return 0;
             break;
         }
@@ -32,14 +33,14 @@ int check_octal(long n)
     } 
     return 1; 
 }
-void convert_to_x_base(int num, int base)
+float convert_to_x_base(int num, int base)//7
 {    
-    int rem;
+    float rem;
 
     // base condition
     if (num == 0)
     {
-        return;
+        return 0;
     }
 
     else
@@ -48,54 +49,56 @@ void convert_to_x_base(int num, int base)
         convert_to_x_base(num/base, base);  // recursive call        
         if(base == 16 && rem >= 10)
         {
-            printf("%c", rem+55);
+            //printf("%c", rem+55);
+            return rem+55;
         }
 
         else
         {
-            printf("%d", rem);
+            return rem ;//printf("%d", rem);
         }
     }
 
-}
-float temp_C_F(float c)
+}*/
+
+float temp_C_F(float c) ///1111
 {
     float f;
     f = c * 9/5 + 32;
     return f;
 }
-float temp_F_C(float f)
+float temp_F_C(float f)/////////////2
 {
     float c;
     c = (f - 32) * 5/9;
     return c;
 }
 
-float Len_M_F(float m)
+float Len_M_F(float m)/////////3
 {
     float f;
     f = 3.2808399 * m;
     return f;
 }
-float Len_F_M(float f)
+float Len_F_M(float f)//4
 {
     float m;
     m = f / 3.2808399;
     return m;
 }
-float current_DC_AC(float dc)
+float current_DC_AC(float dc)//5
 {
     float ac;
     ac=dc/0.636;
     return ac;
 }
-float current_AC_DC(float ac)
+float current_AC_DC(float ac)//6
 {
     float dc;
     dc=ac*0.636;
     return dc;
 }
-
+/*
 void conversion_operation() 
 {
     int num1,val=0,ch1=0; 
@@ -125,8 +128,8 @@ void conversion_operation()
                     printf("2.Convert Farenheit to Celcius  \n");
                     printf("3.Convert Meter to Feet  \n");
                     printf("4.Convert Feet to Meter  \n");
-                    printf("5.Convert DC to AC  \n");
-                    printf("6.Convert AC to DC   \n");
+                    printf("5.Convert AC to DC  \n");
+                    printf("6.Convert DC to AC   \n");
                     printf("7. Exit. \nselect Choice : ");
                     scanf("%d", &choice2);
                     goto sw;
@@ -227,3 +230,4 @@ void conversion_operation()
     }        
   
 }
+*/
