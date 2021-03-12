@@ -3,6 +3,8 @@
 #include <basic.h>
 #include <conversion.h>
 
+
+/*
 unsigned int calculator_operation = 0;
 
 int main(int argc, char *argv[])
@@ -28,9 +30,7 @@ void calculator_menu(void)
         case 2:
             Matrix_operation();
             break;
-        case 3:
-            trigonometeric_opeartions();
-            break;
+        
         case 4:
               conversion_operation();
             break;
@@ -40,3 +40,4 @@ void calculator_menu(void)
     }
 }
 
+*/
