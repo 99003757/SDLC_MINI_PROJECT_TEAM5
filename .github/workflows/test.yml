@@ -1,9 +1,8 @@
-name: Cmake - Build Status
+name: TEST - Build Status
 
 on:
   push:
     branches: [ main ]
-    
   pull_request:
     branches: [ main ]
 
