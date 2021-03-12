@@ -1,7 +1,20 @@
 #include <trigono.h>
-#include <Matric_operation.h>
 #include <basic.h>
 #include <conversion.h>
+
+
+void setUp(void){}
+void tearDown(void){}
+
+int main()
+{
+ /*  
+float a;
+
+float sine(float a);
+float cosine(float a);
+*/
+}
 
 
 /*
