@@ -107,7 +107,7 @@ void square()
     printf("\nsquar of given number=%d\n",result);
 }*/
 
-#include <f.h>
+#include <basic.h>
 
 
 /*int addition (int operand1,int operand2);
