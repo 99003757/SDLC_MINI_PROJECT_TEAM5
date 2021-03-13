@@ -1,4 +1,4 @@
-#ifndef __BASIC_H__
+/*#ifndef __BASIC_H__
 #define __BASIC_H__
 
 #include <stdio.h>
@@ -9,4 +9,21 @@ void subtraction();
 void multiplication();
 void divsion();
 void square();
-#endif  
+#endif */
+
+#ifndef __F_H_
+#define __F_H_
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int addition (int,int);
+int subtraction (int,int);
+int multiplication (int, int);
+int division (int, int);
+
+
+
+
+#endif 
+
