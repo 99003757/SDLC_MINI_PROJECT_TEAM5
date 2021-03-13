@@ -2,13 +2,13 @@
 #include <trigono.h>
 #include <conversion.h>
 #include <Base_Conversion.h>
-//#include <basic.h>
+#include <basic.h>
 
 /* Modify these two lines according to the project */
 #include <trigono.h>
 #include <conversion.h>
 #include <Base_Conversion.h>
-//#include <basic.h>
+#include <basic.h>
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
