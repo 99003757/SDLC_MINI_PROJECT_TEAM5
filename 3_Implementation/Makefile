@@ -8,6 +8,7 @@ BUILD = build
 SRC = src/trigono.c\
 src/conversion.c\
 src/Base_Conversion.c\
+src/basic.c\
 test/test_calculator_operations.c\
 unity/unity.c
  
