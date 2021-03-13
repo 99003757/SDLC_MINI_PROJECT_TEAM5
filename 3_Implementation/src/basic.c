@@ -1,4 +1,4 @@
-#include"basic.h"
+/*#include"basic.h"
 
 #define KEY "Enter the calculator Operation you want to do:"
 
@@ -105,4 +105,41 @@ void square()
     result=number*number;
     //printing the result
     printf("\nsquar of given number=%d\n",result);
+}*/
+
+#include <f.h>
+
+
+/*int addition (int operand1,int operand2);
+int subtraction (int operand1,int operand2);
+int multiplication (int operand1, int operand2);
+int division (int operand1, int operand2);*/
+
+         /*ADDITION*/
+int addition (int operand1,int operand2)
+{
+    int sum;
+    sum = operand1+operand2;
+    return sum;
 }
+
+int subtraction (int operand1,int operand2)
+{
+    int sub;
+    sub = operand1-operand2;
+    return sub;
+}
+int multiplication (int operand1, int operand2)
+{
+    int mul;
+    mul = operand1*operand2;
+    return mul;
+}
+int division (int operand1, int operand2)
+    
+{
+    int div;
+    div = operand1/operand2;
+    return div;
+}
+
