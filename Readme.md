@@ -5,9 +5,11 @@ Visit [Pages for Report -optional](using github.io option)
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
      
- [![TEST - Build Status](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/test.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/test.yml)
-    |[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml)
-| [![Unit Testing - Unity](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml)                         |[![Contribution Check - Git Inspector](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml)
+ [![C/C++ CI] | [![Static Cppcheck] [![Dynamic Valgrind]  [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing][![Unit Testing - Unity](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml)| [![Git Inspector]([![Contribution Check - Git Inspector](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml)
+
+
+ 
+ 
 
 
 ## Folder Structure
