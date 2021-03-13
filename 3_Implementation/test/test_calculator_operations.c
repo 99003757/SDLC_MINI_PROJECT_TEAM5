@@ -29,6 +29,11 @@ void test_trigcos(void);
 void test_trigtan(void);
 
 
+void test_convert_dec_to_bin(void);
+void test_convert_bin_to_dec(void);
+void test_convert_dec_to_oct(void);
+void test_convert_oct_to_dec(void);
+
 
 
 
@@ -60,6 +65,12 @@ int main()
   RUN_TEST(test_trigsin);
   RUN_TEST(test_trigcos);
   RUN_TEST(test_trigtan);
+
+
+  RUN_TEST(test_convert_dec_to_bin);
+  RUN_TEST(test_convert_bin_to_dec);
+  RUN_TEST(test_convert_dec_to_oct);
+  RUN_TEST(test_convert_oct_to_dec);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -155,3 +166,30 @@ void test_trigtan(void) {
 }
 
 
+void test_convert_dec_to_bin(void) {
+  TEST_ASSERT_EQUAL(101,  convert_dec_to_bin(5));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(1010,  convert_dec_to_bin(10));
+}
+
+void test_convert_bin_to_dec(void) {
+  TEST_ASSERT_EQUAL(2, convert_bin_to_dec(10));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(4, convert_bin_to_dec(100));
+}
+
+void test_convert_dec_to_oct(void) {
+  TEST_ASSERT_EQUAL(11, convert_dec_to_oct(9));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(21, convert_dec_to_oct(17));
+}
+
+void test_convert_oct_to_dec(void) {
+  TEST_ASSERT_EQUAL(13, convert_oct_to_dec(15));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(8, convert_oct_to_dec(8));
+}
