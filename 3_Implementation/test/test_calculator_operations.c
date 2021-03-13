@@ -31,6 +31,7 @@ void test_trigsin(void);
 void test_trigcos(void);
 void test_trigtan(void);
 
+//Prototype for Base conversion functions
 void test_convert_dec_to_bin(void);
 void test_convert_bin_to_dec(void);
 void test_convert_dec_to_oct(void);
@@ -67,7 +68,7 @@ int main()
   RUN_TEST(test_trigcos);
   RUN_TEST(test_trigtan);
 
-
+//Run test for Base conversions
   RUN_TEST(test_convert_dec_to_bin);
   RUN_TEST(test_convert_bin_to_dec);
   RUN_TEST(test_convert_dec_to_oct);
@@ -165,6 +166,7 @@ void test_trigtan(void) {
   TEST_ASSERT_EQUAL(1.61977519054, tan_fun(45));
 }
 
+//Test cases for Decimal to Binary 
 
 void test_convert_dec_to_bin(void) {
   TEST_ASSERT_EQUAL(101,  convert_dec_to_bin(5));
@@ -173,12 +175,16 @@ void test_convert_dec_to_bin(void) {
   TEST_ASSERT_EQUAL(1010,  convert_dec_to_bin(10));
 }
 
+//Test Cases for Binary to decimal
+
 void test_convert_bin_to_dec(void) {
   TEST_ASSERT_EQUAL(2, convert_bin_to_dec(10));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(4, convert_bin_to_dec(100));
 }
+
+//Test cases for Decimal to octal
 
 void test_convert_dec_to_oct(void) {
   TEST_ASSERT_EQUAL(11, convert_dec_to_oct(9));
@@ -187,6 +193,7 @@ void test_convert_dec_to_oct(void) {
   TEST_ASSERT_EQUAL(21, convert_dec_to_oct(17));
 }
 
+//Test cases Octal to Decimal 
 void test_convert_oct_to_dec(void) {
   TEST_ASSERT_EQUAL(13, convert_oct_to_dec(15));
   
