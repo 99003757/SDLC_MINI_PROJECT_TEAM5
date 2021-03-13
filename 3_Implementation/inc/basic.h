@@ -11,8 +11,8 @@ void divsion();
 void square();
 #endif */
 
-#ifndef __F_H_
-#define __F_H_
+#ifndef __BASIC_H__
+#define __BASIC_H__
 
 #include<stdio.h>
 #include<stdlib.h>
