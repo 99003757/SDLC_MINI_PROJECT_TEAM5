@@ -1,4 +1,5 @@
-#include"Base_Conversion.h"
+#include"Base_Conversion.h"               //Header File included
+//Program to convert Decimal to Binary
 int convert_dec_to_bin(int dec_no) {
     int bin = 0;
     int rem, i = 1, step = 1;
@@ -10,6 +11,8 @@ int convert_dec_to_bin(int dec_no) {
     }
     return bin;
 }
+
+//Program to convert Binary to Decimal
 int convert_bin_to_dec(int bin_no) {
     int dec = 0, i = 0, rem;
     while (bin_no != 0) {
@@ -20,6 +23,7 @@ int convert_bin_to_dec(int bin_no) {
     }
     return dec;
 }
+//Program to convert Decimal to Octal
 int convert_dec_to_oct(int decimalNumber)
 {
     int octalNumber = 0, i = 1;
@@ -31,6 +35,7 @@ int convert_dec_to_oct(int decimalNumber)
     }
     return octalNumber;
 }
+//Program to convert Octal to Decimal
 int convert_oct_to_dec(int octalNumber)
 {
     int decimalNumber = 0, i = 0;
