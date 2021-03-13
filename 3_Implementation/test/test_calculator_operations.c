@@ -38,6 +38,14 @@ void test_convert_dec_to_oct(void);
 void test_convert_oct_to_dec(void);
 
 
+//99003759
+void test_add(void);
+void test_add_testcase2(void);
+void test_subtract(void);
+void test_multiply(void);
+void test_divide(void);
+
+
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -74,6 +82,12 @@ int main()
   RUN_TEST(test_convert_dec_to_oct);
   RUN_TEST(test_convert_oct_to_dec);
   /* Close the Unity Test Framework */
+  
+  RUN_TEST(test_add);
+  RUN_TEST(test_add_testcase2);
+  RUN_TEST(test_subtract);
+  RUN_TEST(test_multiply);
+  RUN_TEST(test_divide);
   return UNITY_END();
 }
 
@@ -199,4 +213,35 @@ void test_convert_oct_to_dec(void) {
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(8, convert_oct_to_dec(8));
+}
+
+           // operators
+void test_add(void) {
+  TEST_ASSERT_EQUAL(30, addition(10, 20));
+  TEST_ASSERT_EQUAL(-10, addition(10, -20));
+}
+void test_add_testcase2(void) {
+ 
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(8250, addition(750, 7500));
+}
+void test_subtract(void) {
+  TEST_ASSERT_EQUAL(7, subtraction(10, 3));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(100, subtraction(1000, 900));
+}
+
+void test_multiply(void) {
+  TEST_ASSERT_EQUAL(10, multiplication(1, 10));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(10, multiplication(2, 5));
+}
+
+void test_divide(void) {
+  TEST_ASSERT_EQUAL(5, division(25, 5));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(1, division(2, 2));
 }
