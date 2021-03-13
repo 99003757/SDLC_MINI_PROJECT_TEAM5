@@ -7,6 +7,7 @@ BUILD = build
 # All source code files
 SRC = src/trigono.c\
 src/conversion.c\
+src/Base_Conversion.c\
 test/test_calculator_operations.c\
 unity/unity.c
  

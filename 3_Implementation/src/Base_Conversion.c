@@ -1,4 +1,8 @@
 #include"Base_Conversion.h"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 int convert_dec_to_bin(int dec_no) {
     int bin = 0;
     int rem, i = 1, step = 1;
