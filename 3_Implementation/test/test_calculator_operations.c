@@ -107,6 +107,11 @@ int main()
   RUN_TEST(test_trigcosec1);
   RUN_TEST(test_trigcot1);
 
+  RUN_TEST(test_convert_dec_to_bin1);
+RUN_TEST(test_convert_bin_to_dec1);
+RUN_TEST(test_convert_dec_to_oct1);
+RUN_TEST(test_convert_oct_to_dec1);
+  
 //Run test for Base conversions
   RUN_TEST(test_convert_dec_to_bin);
   RUN_TEST(test_convert_bin_to_dec);
