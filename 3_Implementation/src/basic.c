@@ -142,4 +142,9 @@ int division (int operand1, int operand2)
     div = operand1/operand2;
     return div;
 }
-
+int square (int operand)
+{
+    int result;
+    result = operand * operand;
+    return result;
+}
