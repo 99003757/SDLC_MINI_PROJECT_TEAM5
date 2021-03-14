@@ -27,6 +27,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 # Epic Story
 ![image](https://user-images.githubusercontent.com/78851073/111072925-adf6e600-8502-11eb-9da4-fccbf05076b9.png)
+![Capture2](https://user-images.githubusercontent.com/78851798/111076009-7bec8080-8510-11eb-82e0-bcffa4e196de.PNG)
 
 
 
