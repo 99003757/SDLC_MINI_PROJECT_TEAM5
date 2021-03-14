@@ -12,19 +12,26 @@
 | LLR10 | R2=C1 | Do Matrix Multiplication |
 
 
+
+
 **Test Plan For Trigonomteric Operation**
 
 
 | Test ID | Requirement | Expected Output |
 | --- | --- | --- |
-| LLR1 | R1!=R2 &amp;C1!=C2 | Invalid |
-| LLR2 | R1=R2 &amp;C1=C2 | Do Matrix Addition |
-| LLR3 | R1!=R2 &amp;C1!=C2 | Invalid |
-| LLR4 | R1=R2 &amp;C1=C2 | Do Matrix Subtraction |
-| LLR5 | R2!=C1 | Invalid |
-| LLR6 | R2=C1 | Do Matrix Multiplication |
+| LLR1 | sin(30)  | -0.988032 |
+| LLR2 | cos(30)| 0.1542  |
+| LLR3 | tan(30) | -6.405331 |
+| LLR4 | cot(30)| -0.15612 |
+| LLR5 | sec(30) | 6.4829|
+| LLR6 | cosec(30) | -1.012113 |
+| LLR1 | sin(60)  | -0.304811 |
+| LLR2 | cos(60)| -0.9524 |
+| LLR3 | tan(60) | 0.32004  |
+| LLR4 | cot(60)| 3.124606 |
+| LLR5 | sec(60) | -1.04996 |
+| LLR6 | cosec(60) | -3.280726 |
 
-![testplan](https://user-images.githubusercontent.com/78853987/107902543-c0feb080-6f6c-11eb-8d78-83309dc45eec.PNG)
 
 **For Conversion Operation**
 ![test_conversion](https://user-images.githubusercontent.com/78851073/107909107-85b8ad80-6f7d-11eb-9510-4614e0bb6d80.png)
