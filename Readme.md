@@ -18,7 +18,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `99003757` | Arpita A Kulkarni  | Trigonometry    | 5     | 4   | 12   |12    
-`99003761` | Santosh Kariyavar  |  Unit Conversion    | 4     | 3   |13   |13     
+`99003761` | Santosh Kariyavar  |  Unit Conversion    | 4     | 4   |13   |13     
 `99003752` | Sushma L Nagangoudar  | Base Conversion   | 3     | 2   | 8   |8 
 
 ## Challenges Faced and How Was It Overcome
