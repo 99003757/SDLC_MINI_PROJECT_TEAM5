@@ -15,7 +15,7 @@ float tan_fun(float var)
 {
     return (tan(var));
 }
-/*
+
 float cot_fun(float var)
 {
     return (1/tan(var));
@@ -28,4 +28,3 @@ float cosec_fun(float var)
 {
     return (1/sin(var));
 }
-*/

@@ -27,9 +27,17 @@ void test_Len_F_M (void);
 void test_current_DC_AC(void);
 void test_current_AC_DC(void);
 
+//99003757
 void test_trigsin(void);
 void test_trigcos(void);
 void test_trigtan(void);
+void test_trigsec(void);
+void test_trigcot(void);
+void test_trigcosec(void);
+
+
+
+
 
 //Prototype for Base conversion functions
 void test_convert_dec_to_bin(void);
@@ -76,6 +84,9 @@ int main()
   RUN_TEST(test_trigsin);
   RUN_TEST(test_trigcos);
   RUN_TEST(test_trigtan);
+  RUN_TEST(test_trigsec);
+  RUN_TEST(test_trigcosec);
+  RUN_TEST(test_trigcot);
 
 //Run test for Base conversions
   RUN_TEST(test_convert_dec_to_bin);
@@ -162,28 +173,44 @@ void test_current_AC_DC(void)
 
 
 void test_trigsin(void) {
-  TEST_ASSERT_EQUAL(-0.98803162409,  sine_fun(30));
+  TEST_ASSERT_EQUAL(0.5,  sine_fun(30));
   
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(0.85090352453,  sine_fun(45));
+  
 }
 
 void test_trigcos(void) {
-  TEST_ASSERT_EQUAL(0.15425144988, cosine_fun(30));
-  
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(0.52532198881, cosine_fun(45));
+  TEST_ASSERT_EQUAL(0.866, cosine_fun(30));
 }
+
 
 void test_trigtan(void) {
-  TEST_ASSERT_EQUAL(-6.40533119665, tan_fun(30));
+  TEST_ASSERT_EQUAL(0.577350, tan_fun(30));
   
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1.61977519054, tan_fun(45));
+  
 }
 
-//Test cases for Decimal to Binary 
 
+void test_trigsec(void) {
+  TEST_ASSERT_EQUAL(1.1547, sec_fun(30));
+  
+  
+}
+
+
+void test_trigcosec(void) {
+  TEST_ASSERT_EQUAL(2.000,  cosec_fun(30));
+  
+  
+}
+
+void test_trigcot(void) {
+  TEST_ASSERT_EQUAL(1.73205,  cot_fun(30));
+  
+}
+
+
+
+//Test cases for Decimal to Binary 
 void test_convert_dec_to_bin(void) {
   TEST_ASSERT_EQUAL(101,  convert_dec_to_bin(5));
   
