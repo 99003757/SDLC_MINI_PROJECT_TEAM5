@@ -53,6 +53,10 @@ void test_convert_bin_to_dec(void);
 void test_convert_dec_to_oct(void);
 void test_convert_oct_to_dec(void);
 
+void test_convert_dec_to_bin1(void);
+void test_convert_bin_to_dec1(void);
+void test_convert_dec_to_oct1(void);
+void test_convert_oct_to_dec1(void);
 
 //99003759
 void test_add(void);
