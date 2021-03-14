@@ -174,38 +174,38 @@ void test_current_AC_DC(void)
 ///////////////////////////////99003757 Test_Case//////////////////////////////////////////////////////////
 
 void test_trigsin(void) {
-  TEST_ASSERT_EQUAL(0.5,  sine_fun(30));
+  TEST_ASSERT_EQUAL(-0.98803162409,  sine_fun(30));
   
   
 }
 
 void test_trigcos(void) {
-  TEST_ASSERT_EQUAL(0.866, cosine_fun(30));
+  TEST_ASSERT_EQUAL(0.15425144988, cosine_fun(30));
 }
 
 
 void test_trigtan(void) {
-  TEST_ASSERT_EQUAL(0.577350, tan_fun(30));
+  TEST_ASSERT_EQUAL(-6.40533119665, tan_fun(30));
   
   
 }
 
 
 void test_trigsec(void) {
-  TEST_ASSERT_EQUAL(1.1547, sec_fun(30));
+  TEST_ASSERT_EQUAL(6.482921235, sec_fun(30));
   
   
 }
 
 
 void test_trigcosec(void) {
-  TEST_ASSERT_EQUAL(2.000,  cosec_fun(30));
+  TEST_ASSERT_EQUAL(-1.01211353,cosec_fun(30));
   
   
 }
 
 void test_trigcot(void) {
-  TEST_ASSERT_EQUAL(1.73205,  cot_fun(30));
+  TEST_ASSERT_EQUAL(-0.156119952,  cot_fun(30));
   
 }
 
