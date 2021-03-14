@@ -258,6 +258,14 @@ void test_convert_dec_to_bin(void) {
   TEST_ASSERT_EQUAL(1010,  convert_dec_to_bin(10));
 }
 
+void test_convert_dec_to_bin1(void) {
+  TEST_ASSERT_EQUAL(100,  convert_dec_to_bin(4));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(1011,  convert_dec_to_bin(11));
+}
+
+
 //Test Cases for Binary to decimal
 
 void test_convert_bin_to_dec(void) {
@@ -266,6 +274,14 @@ void test_convert_bin_to_dec(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(4, convert_bin_to_dec(100));
 }
+
+void test_convert_bin_to_dec1(void) {
+  TEST_ASSERT_EQUAL(1, convert_bin_to_dec(1));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(9, convert_bin_to_dec(1001));
+}
+
 
 //Test cases for Decimal to octal
 
@@ -276,12 +292,26 @@ void test_convert_dec_to_oct(void) {
   TEST_ASSERT_EQUAL(21, convert_dec_to_oct(17));
 }
 
+void test_convert_dec_to_oct1(void) {
+  TEST_ASSERT_EQUAL(12, convert_dec_to_oct(10));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(14, convert_dec_to_oct(12));
+}
+
 //Test cases Octal to Decimal 
 void test_convert_oct_to_dec(void) {
   TEST_ASSERT_EQUAL(13, convert_oct_to_dec(15));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(8, convert_oct_to_dec(8));
+}
+
+void test_convert_oct_to_dec1(void) {
+  TEST_ASSERT_EQUAL(11, convert_oct_to_dec(13));
+  
+  /* Dummy fail*/
+  TEST_ASSERT_EQUAL(7, convert_oct_to_dec(7));
 }
 
            // operators
