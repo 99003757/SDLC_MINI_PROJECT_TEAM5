@@ -44,7 +44,7 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
-void test_square(void);
+//void test_square(void);
 
 
 
@@ -89,7 +89,7 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
-  RUN_TEST(test_square);
+  //RUN_TEST(test_square);
   return UNITY_END();
 }
 
@@ -247,9 +247,9 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1, division(2, 2));
 }
-void test_square(void) {
+/*void test_square(void) {
   TEST_ASSERT_EQUAL(25, square(5));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(4, square(2));
-}
+  //TEST_ASSERT_EQUAL(4, square(2));
+}*/
