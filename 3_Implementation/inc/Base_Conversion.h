@@ -2,6 +2,7 @@
 #define __BASE_CONVERSION_H__
 #include <stdio.h>
 #include<stdlib.h>
+#include<math.h>
 //Function Declaration
 int convert_dec_to_bin(int dec_no);
 int convert_bin_to_dec(int bin_no);
