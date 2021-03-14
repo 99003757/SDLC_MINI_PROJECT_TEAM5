@@ -15,7 +15,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 `99003757` | Arpita A Kulkarni  | Trigonometry    | 5     | 4   | 12   |12    
 `99003761` | Santosh Kariyavar  |  Unit Conversion    | 4     | 4   |13   |13     
 `99003752` | Sushma L Nagangoudar  | Base Conversion   | 3     | 2   | 8   |8 
-
+`99003759` | Katherapalle Rama Subba Reddy  | Basic Operations   | 2     | 4   | 9   |9 
 
 ![Capture](https://user-images.githubusercontent.com/78851798/111075889-fbc61b00-850f-11eb-95af-985928ce3150.PNG)
 
