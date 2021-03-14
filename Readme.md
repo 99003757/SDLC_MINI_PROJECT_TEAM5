@@ -26,7 +26,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `99003757` | Arpita A Kulkarni  | Trigonometry    | 5     | 4   | 8   |8    
 `99003761` | Santosh K  |  Unit Conversion    | 4     | 3   |13   |13     
-`99003752` | Sushma L Nagangoudar  | Base Conversion   | 5     | 4   | 12   |12 
+`99003752` | Sushma L Nagangoudar  | Base Conversion   | 3     | 2   | 12   |12 
 
 ## Challenges Faced and How Was It Overcome
 
