@@ -8,11 +8,6 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 [![C/C++ CI - Build Status](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/c-cpp.yml)  | [![Cppcheck](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/CodeQuality_Dynamic.yml) | [![Unit Testing - Unity](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/unity.yml) |  [![Contribution Check - Git Inspector](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003757/SDLC_MINI_PROJECT_TEAM5/actions/workflows/gitinspector.yml)
 
 
- 
- 
-
-
-
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
