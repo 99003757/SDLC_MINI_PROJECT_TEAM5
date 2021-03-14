@@ -247,9 +247,3 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1, division(2, 2));
 }
-/*void test_square(void) {
-  TEST_ASSERT_EQUAL(25, square(5));
-  
-  /* Dummy fail*/
-  //TEST_ASSERT_EQUAL(4, square(2));
-}*/
