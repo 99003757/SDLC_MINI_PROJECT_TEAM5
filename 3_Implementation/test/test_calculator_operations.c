@@ -171,6 +171,7 @@ void test_current_AC_DC(void)
   TEST_ASSERT_EQUAL(9.99,current_AC_DC(15.723));
 }
 
+///////////////////////////////99003757 Test_Case//////////////////////////////////////////////////////////
 
 void test_trigsin(void) {
   TEST_ASSERT_EQUAL(0.5,  sine_fun(30));
@@ -209,6 +210,7 @@ void test_trigcot(void) {
 }
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Test cases for Decimal to Binary 
 void test_convert_dec_to_bin(void) {
