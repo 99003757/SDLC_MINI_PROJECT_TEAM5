@@ -35,6 +35,14 @@ void test_trigsec(void);
 void test_trigcot(void);
 void test_trigcosec(void);
 
+void test_trigsin1(void);
+void test_trigcos1(void);
+void test_trigtan1(void);
+void test_trigsec1(void);
+void test_trigcot1(void);
+void test_trigcosec1(void);
+
+
 
 
 
@@ -87,6 +95,13 @@ int main()
   RUN_TEST(test_trigsec);
   RUN_TEST(test_trigcosec);
   RUN_TEST(test_trigcot);
+    
+  RUN_TEST(test_trigsin1);
+  RUN_TEST(test_trigcos1);
+  RUN_TEST(test_trigtan1);
+  RUN_TEST(test_trigsec1);
+  RUN_TEST(test_trigcosec1);
+  RUN_TEST(test_trigcot1);
 
 //Run test for Base conversions
   RUN_TEST(test_convert_dec_to_bin);
@@ -175,8 +190,6 @@ void test_current_AC_DC(void)
 
 void test_trigsin(void) {
   TEST_ASSERT_EQUAL(-0.98803162409,  sine_fun(30));
-  
-  
 }
 
 void test_trigcos(void) {
@@ -185,29 +198,54 @@ void test_trigcos(void) {
 
 
 void test_trigtan(void) {
-  TEST_ASSERT_EQUAL(-6.40533119665, tan_fun(30));
-  
-  
-}
+  TEST_ASSERT_EQUAL(-6.40533119665, tan_fun(30)); }
 
 
 void test_trigsec(void) {
-  TEST_ASSERT_EQUAL(6.482921235, sec_fun(30));
-  
-  
-}
+  TEST_ASSERT_EQUAL(6.482921235, sec_fun(30));}
 
 
 void test_trigcosec(void) {
-  TEST_ASSERT_EQUAL(-1.01211353,cosec_fun(30));
-  
-  
-}
+  TEST_ASSERT_EQUAL(-1.01211353,cosec_fun(30));}
 
 void test_trigcot(void) {
-  TEST_ASSERT_EQUAL(-0.156119952,  cot_fun(30));
-  
+  TEST_ASSERT_EQUAL(-0.156119952,  cot_fun(30));}
+
+
+void test_trigsin1(void) {
+  TEST_ASSERT_EQUAL(-0.304810621,  sine_fun(60));
+  TEST_ASSERT_EQUAL(-0.801152636,  sine_fun(180));
 }
+
+void test_trigcos1(void) {
+  TEST_ASSERT_EQUAL(-0.952412980, cosine_fun(60));
+  TEST_ASSERT_EQUAL(-0.598460069, cosine_fun(180));
+}
+
+
+void test_trigtan1(void) {
+  TEST_ASSERT_EQUAL(0.320040389, tan_fun(60)); 
+  TEST_ASSERT_EQUAL(1.338690210, tan_fun(180));
+  }
+
+
+void test_trigsec1(void) {
+  TEST_ASSERT_EQUAL(-1.049964690, sec_fun(60));
+  TEST_ASSERT_EQUAL(-1.670955260, sec_fun(180));}
+
+
+void test_trigcosec1(void) {
+  TEST_ASSERT_EQUAL(-3.280725574,cosec_fun(60));
+  TEST_ASSERT_EQUAL(-1.248201598,cosec_fun(180));
+  }
+
+void test_trigcot1(void) {
+  TEST_ASSERT_EQUAL(3.124605622,  cot_fun(60));
+   TEST_ASSERT_EQUAL(0.746998814,  cot_fun(180));
+  }
+
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
