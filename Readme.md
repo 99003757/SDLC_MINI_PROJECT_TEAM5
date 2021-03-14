@@ -18,9 +18,9 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+1. Building makefile.
+2. Unity test and Test cases in windows. 
+3. It was overcomed byusing Linux. 
+
 
 
