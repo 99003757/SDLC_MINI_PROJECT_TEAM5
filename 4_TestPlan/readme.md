@@ -12,25 +12,33 @@
 | LLR10 | R2=C1 | Do Matrix Multiplication |
 
 
+| Test ID | Requirement | Expected Output |Type of test case|
+| --- | --- | --- |---|
+| HLR1 | Selection of Operation | Selecting Available Operations  | Requirement based|
+| HLR2 | Accuracy | Result Precision | Requirement based|
+| HLR3 | Number of digits allowed to enter | Valid Input | Requirement based|
+
+
+
 
 
 **Test Plan For Trigonomteric Operation**
 
 
-| Test ID | Requirement | Expected Output |
-| --- | --- | --- |
-| LLR1 | sin(30)  | -0.988032 |
-| LLR2 | cos(30)| 0.1542  |
-| LLR3 | tan(30) | -6.405331 |
-| LLR4 | cot(30)| -0.15612 |
-| LLR5 | sec(30) | 6.4829|
-| LLR6 | cosec(30) | -1.012113 |
-| LLR7 | sin(60)  | -0.304811 |
-| LLR8 | cos(60)| -0.9524 |
-| LLR9 | tan(60) | 0.32004  |
-| LLR10 | cot(60)| 3.124606 |
-| LLR11 | sec(60) | -1.04996 |
-| LLR12 | cosec(60) | -3.280726 |
+| Test ID | Requirement | Expected Output |Type of test case|
+| --- | --- | --- |--- |
+| LLR1 | sin(30)  | -0.988032 | Positive Test case|
+| LLR2 | cos(30)| 0.1542  | Positive Test case|
+| LLR3 | tan(30) | -6.405331 | Positive Test case|
+| LLR4 | cot(30)| -0.15612 | Positive Test case|
+| LLR5 | sec(30) | 6.4829| Positive Test case|
+| LLR6 | cosec(30) | -1.012113 | Positive Test case|
+| LLR7 | sin(60)  | -0.304811 | Positive Test case|
+| LLR8 | cos(60)| -0.9524 | Positive Test case|
+| LLR9 | tan(60) | 0.32004  | Positive Test case|
+| LLR10 | cot(60)| 3.124606 | Positive Test case|
+| LLR11 | sec(60) | -1.04996 | Positive Test case|
+| LLR12 | cosec(60) | -3.280726 | Positive Test case|
 
 
 **For Conversion Operation**
